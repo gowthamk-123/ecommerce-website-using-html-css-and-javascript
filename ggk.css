@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: #22222269;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    background-color: rgb(242, 255, 0) !important;
+    height: 75px;
+}
+#hero{
+    background-image: url(banner/b1.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+#hero a{
+    margin-bottom: 5rem;
+    text-decoration: none;
+    background-color: #1690b1;
+    color: rgb(1, 6, 11);
+    cursor: pointer;
+    font-weight:  700;
+    font-size:20px ;
+    border-radius: 4px;
+    display: flex;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    height: 20%;
+    min-width: 250px;
+    padding: 15px 15px;
+    border: 2px solid rgb(251, 245, 245);
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgb(208, 206, 206);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 10px 10px;
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+      color: rgb(1, 20, 20);
+      font-size:12px ;
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #222;
+    font-size: 14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color: #1690b1;
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #12df4c;
+
+}
+
+
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-image: url(banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    font-weight: 200px;
+    color: #f8fcfd;
+    padding: 40px 0;
+}
+#banner span{
+    color: rgb(237, 4, 4);
+}
+#banner h2{
+    font-size: 30px;
+    color: rgb(246, 237, 235);
+}
+#banner .btn2{
+    margin: 20px 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(15, 16, 16);
+    border: none;
+    background-color: #f7fbfe;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+#banner button:hover{
+    background-color: aqua;
+    color: #f4f7f9;
+
+}
+.brands-area{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    color: #fefdf7;
+    justify-content: space-between;
+    padding: 100px 5% !important;
+    flex-wrap: wrap !important;
+}
+.brands-area .img{
+    padding: 4px 4px !important;
+    margin: 5px 5px !important;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+footer .logo{
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #222;
+}
+footer h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 5px;
+}
+footer .follow{
+    margin: 20px;
+
+}
+footer .follow i{
+    color: rgb(191, 205, 193);
+    padding-right: 10px;
+    cursor: pointer;
+}
+footer .install .row img{
+    border: 1px solid rgb(139, 200, 246);
+    border-radius: 5px;
+    width: 150px;
+}
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,footer a:hover{
+    color: crimson;
+}
+.login-body{
+    height: 100vh !important;
+    background-color: #f7fbfc;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+}
+
+.container-1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 28rem;
+    background-color: #16e952;
+   display: flex !important;
+   flex-direction: column;
+   justify-content: center !important;
+   border: #222 solid 2px;
+   width: 600px !important;
+}
+.container-1 fieldset .row{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+/* shopping page */
+#shop-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-image: url(banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#shop-banner h4 {
+    color: #f3f1f1;
+}
+#shop-banner h2{
+    color: #12df4c;
+}
+
+#pagination{
+    text-align: center;
+
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #02945e;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #f3f1f1;
+    font-weight: 600;
+
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+#productdetails{
+    display: flex !important;
+    margin-top: 20px !important;
+}
+
+
+#productdetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+
+}
+#productdetails .small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.small-img-col{
+    flex-basis: 24% ;
+    cursor: pointer;
+}
+
+#productdetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#productdetails .single-pro-details h4{
+    padding: 40px 0 20px 0 ;
+}
+
+#productdetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#productdetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#productdetails .single-pro-details select{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#productdetails.single-pro-details imput:focus{
+    outline: none;
+
+}
+
+#productdetails .single-pro-details button{
+    padding: 10px;
+    background-color: #25f3bf;
+    color: #f4f7f9;
+}
+
+#productdetails.single-pro-details span{
+    line-height: 25px;
+}
+
+#blog-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("banner/b4.webp");
+}
+
+#blog{
+    padding: 150px 150px 0 150px;
+}
+
+
+.container.row{
+    height: 40vh !important;
+}
+
+
+.container-2{
+    background-color: #f98d1bd7;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+fieldset .row1{
+    display: flex;
+    align-items: end;
+    /* flex-direction: column; */
+}
+
+#productdetails .single-pro-details input{
+    padding: 10px !important;
+}
+.container-2 fieldset .row1{
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.single-pro-details.button{
+    text-decoration: none;
+}

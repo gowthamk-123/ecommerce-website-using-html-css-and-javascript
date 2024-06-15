@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billing Page</title>
+  <link rel="stylesheet" href="ggk.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  sticky-lg-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="LOGO"></a>
+      <button class="navbar-toggler  p-3 mb-2 bg-primary text-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Shop.html">SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              FASHION
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Men's Wear</a></li>
+              <li><a class="dropdown-item" href="#">Women's Wear</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">kid's Wear</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="LOGIN.html">SIGN UP</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container-2  pt-5 pb-5">
+    <h1 class="text-center ml-4 p-2">Billing Form</h1>
+    <fieldset>
+      <div class="row1">
+        <div class="col-md-6">
+          <form name="form-google-sheets">
+            <div class="mb-3">
+              <label for="exampleInputname1" class="form-label">Full Name</label>
+              <input type="text" name="firstname" class="form-control" id="exampleInputname">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" name="emailid" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputAddress1" class="form-label">ADDRESS</label>
+              <input type="text" name="address" class="form-control" id="exampleInputaddress">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputcity" class="form-label">City</label>
+              <input type="text" name="city" class="form-control" id="exampleInputcity">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputstate" class="form-label">State</label>
+              <input type="text" name="state" class="form-control" id="exampleInputstate">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputpincode" class="form-label">Pin Code</label>
+              <input type="text" name="zip" class="form-control" id="exampleInputpincode">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputnoc" class="form-label">Name On Card</label>
+              <input type="text" name="cardname" class="form-control" id="exampleInputnoc">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputcn" class="form-label">Card Number</label>
+              <input type="text" name="cardnumber" class="form-control" id="exampleInputcn">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputey" class="form-label">EXP Year</label>
+              <input type="text" name="expyear" class="form-control" id="exampleInputey">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputem" class="form-label">Exp Month</label>
+              <input type="text" name="expmonth" class="form-control" id="exampleInputem">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputcvv" class="form-label">CVV</label>
+              <input type="text" name="cvv" class="form-control" id="exampleInputcvv">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Refresh</button>
+          </form>
+
+        </div>
+        <!-- <div class="img">
+              <img src="./banner/b1.jpg" alt="" width="400px" height="800px">
+            </div> -->
+      </div>
+    </fieldset>
+  </div>
+
+
+  <footer class="section-p1  border border-dark">
+    <div class="col">
+      <img class="logo" src="logo.png" alt="">
+      <h4>Contact</h4>
+      <p> <strong>Lorem ipsum</strong> dolor sit amet consectetur </p>
+      <p> <strong>Lorem ipsum</strong> dolor sit amet consectetur </p>
+      <p> <strong>Lorem ipsum</strong> dolor sit amet consectetur </p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Help</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>Lorem, ipsum dolor.</p>
+      <div class="row">
+        <img src="app.jpg" alt="">
+        <img src="play.jpg" alt="">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="pay.png" alt="">
+
+    </div>
+  </footer>
+
+  <script>
+    function validation() {
+      var name = document.getElementById("exampleInputname1").value;
+      var email = document.getElementById("exampleInputEmail1").value;
+      var Adderss = document.getElementById("exampleInputAddress1").value;
+      var city = document.getElementById("exampleInputcity").value;
+      var state = document.getElementById("exampleInputstate").value;
+      var zip = document.getElementById("exampleInputpincode").value;
+      var cardname = document.getElementById("exampleInputnoc").value;
+      var cardnumber = document.getElementById("exampleInputcn").value;
+      var expyear = document.getElementById("exampleInputey").value;
+      var expmonth = document.getElementById("exampleInputem").value;
+      var cvv = document.getElementById("exampleInputcvv").value;
+
+
+      var namecheck = /^[A-Za-z ]{2,30}$/;
+      var emailcheck = /^[A-Za-z0-9.]{3,}@[A-Za-z0-9]{3,}[.]{1}[A-Za-z]{2,6}$/;
+      var Addersscheck = /^[A-Za-z]{10,40}$/;
+      var citycheck = /^[A-Za-z]{3,10}$/;
+      var statecheck = /^[A-Za-z]{3,15}$/;
+      var zipcheck = /^[0-9]{5,6}$/;
+      var cardnamecheck = /^[A-Za-z]{4,15}$/;
+      var cardnumbercheck = /^[0-9 -]{16}$/;
+      var expyearcheck = /^[0-9]{2}$/;
+      var expmonthcheck = /^[A-Za-z]{3,13}$/;
+      var cvvcheck = /^[0-9]{4}$/;
+
+
+      if (namecheck.test(name)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+
+      if (emailcheck.test(email)) {
+        document.getElementById('error-email').innerHTML = "";
+      } else {
+        document.getElementById('error-email').innerHTML = "Invaild Email Syntax";
+        return false;
+      }
+
+      if (Addersscheck.test(Address)) {
+        document.getElementById('error-password').innerHTML = "";
+      } else {
+        document.getElementById('error-password').innerHTML = "weak Password";
+        return false;
+      }
+      if (citycheck.match(city)) {
+        document.getElementById("error-cpassword").innerHTML = "";
+
+      } else {
+        document.getElementById("error-cpassword").innerHTML = "Invalid"
+      }
+      if (statecheck.test(state)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+      if (zipcheck.test(zip)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+      if (cardnamecheck.test(cardname)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+      if (cardnumbercheck.test(cardnumber)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+      if (expyearcheck.test(expyear)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+      if (expmonthcheck.test(expmonth)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+      if (cvvcheck.test(cvv)) {
+        document.getElementById('error-name').innerHTML = "";
+      } else {
+        document.getElementById('error-name').innerHTML = "Useonly Alphabets";
+        return false;
+      }
+    }
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbxtb6renRfsQTU0VxIizeCYiDT6Zw6KeNDrQ-4aPAm9IN7mAOwgqhQBL9k5vG1c2_G4yg/exec"
+    const form = document.forms['form-google-sheets']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form)
+        })
+        .then(response => alert(
+          "Your Order Has Been Placed"))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
